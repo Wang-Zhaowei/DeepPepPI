@@ -24,7 +24,7 @@ In this paper, the initial plant PepPI datasets were extracted from the widely u
 
 ##### peptide embedding features:&#x20;
 
-We introduce ProtT5-XL-UniRef50 (ProtT5) to capture the contextual information of peptide sequences, which can be available at [https://github.com/agemagician/ProtTrans](https://github.com/agemagician/ProtTrans).
+We introduce ProtT5-XL-UniRef50 (ProtT5) to capture the contextual information of peptide sequences, which can be available at [https://githubfast.com/agemagician/ProtTrans](https://githubfast.com/agemagician/ProtTrans).
 
 ##### protein secondary structure:
 
@@ -46,7 +46,7 @@ The SOPMA web server (<https://npsa-prabi.ibcp.fr/cgi-bin/npsa_automat.pl?page=n
 
 *   DeepPepPI.py: train and evaluate the model.
 
-*   DeepPepPI\_modules.py: DeepPepPI model.
+*   Model.py: DeepPepPI modules.
 
 *   multi\_head\_att.py: multi-head self-attention mechanism.
 
