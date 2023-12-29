@@ -1,4 +1,4 @@
-## DeepPepPI: a deep cross-dependent framework for predicting peptide-protein interactions in plants
+## DeepPepPI: a deep cross-dependent framework with information sharing mechanism for predicting plant peptide-protein interactions
 
 This repository contains the source code and benchmark datasets used in this paper.
 
@@ -10,7 +10,7 @@ Peptide-protein interactions (PepPIs) play a crucial role in various fundamental
 
 Results:
 
-In this paper, we propose DeepPepPI, a novel deep cross-dependent framework for accurate prediction of plant PepPIs. Concretely, a data-driven context-embedded representation (DCR) module and a bi-level self-correlation search (BSS) module are constructed to portray the contextual semantic information of peptides and intrinsic properties of proteins, respectively. To incorporate peptide and protein deep-level representations, a cross-dependent feature integration module is developed to bridge the gap between the BSS and DCR modules from a global perspective. Comprehensive experiments demonstrate that the proposed method achieved excellent prediction performance and powerful generalization capability, which can serve as an effective and convenient tool for the characterization and identification of PepPIs.
+In this paper, we propose DeepPepPI, a novel deep cross-dependent framework with information sharing mechanism for accurate prediction of plant PepPIs. Concretely, a data-driven context-embedded representation (DCR) module and a bi-level self-correlation search (BSS) module are constructed to portray the contextual semantic information of peptides and intrinsic properties of proteins, respectively. To incorporate peptide and protein deep-level representations, a cross-dependent feature integration module is developed to bridge the gap between the BSS and DCR modules from a global perspective. Comprehensive experiments demonstrate that the proposed method achieved excellent prediction performance and powerful generalization capability, which can serve as an effective and convenient tool for the characterization and identification of PepPIs.
 
 ## DeepPepPI
 
@@ -24,7 +24,7 @@ In this paper, the initial plant PepPI datasets were extracted from the widely u
 
 ##### peptide embedding features:&#x20;
 
-We introduce ProtT5-XL-UniRef50 (ProtT5) to capture the contextual information of peptide sequences, which can be available at [https://githubfast.com/agemagician/ProtTrans](https://githubfast.com/agemagician/ProtTrans).
+We introduce ProtT5-XL-UniRef50 (ProtT5) to capture the contextual information of peptide sequences, which can be available at <https://github.com/agemagician/ProtTrans>.
 
 ##### protein secondary structure:
 
@@ -60,4 +60,4 @@ python DeepPepPI.py
 
 ## Citation
 
-Zhaowei Wang, Jun Meng, Qiguo Dai, et al. "DeepPepPI: a deep cross-dependent framework for predicting peptide-protein interactions in plants."   (2023) \[*Under Review*]
+Zhaowei Wang, Jun Meng, Qiguo Dai, et al. "DeepPepPI: a deep cross-dependent framework for predicting peptide-protein interactions in plants."   ***Expert Systems with Applications*** (2023) \[*Under Review*]
